@@ -4,7 +4,6 @@ import json
 import requests
 import argparse
 from web3 import Web3, HTTPProvider
-from eoa_historic_bal.token_contract import TokenContract
 from pprint import pprint
 from pymaker import Address, web3_via_http, Wad, Contract
 from pymaker.token import ERC20Token
